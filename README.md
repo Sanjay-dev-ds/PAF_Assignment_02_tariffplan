@@ -1,5 +1,5 @@
 # PAF_Assignment_02_tariffplan
-rich web-based application developed for tariff plan management
+rich web-based application developed for electricity tariff plan management
 
 ## Tariff Plan UI
 
