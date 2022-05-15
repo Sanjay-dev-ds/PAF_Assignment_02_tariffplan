@@ -128,7 +128,7 @@ public class TariffPlan {
 			if (con == null) {
 				return "Error while connecting to the database for reading.";
 			}
-			output = "<table id='Tariff' border='1'><tr><th>Tariff_ID </th>" + "<th> Tariff_Block_Range </th><th>Unite_Rate</th>"
+			output = "<table id='Tariff' border='1'><tr><th>Tariff_ID </th>" + "<th> Tariff_Block </th><th>Unite_Rate</th>"
 					+ "<th>Fixed_Charge </th>" + "<th>Update</th><th>Remove</th></tr>";
 			
 			String query = "select * from electricity_tariff_plan ";
